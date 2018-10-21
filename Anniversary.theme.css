@@ -1,0 +1,11 @@
+/* //META{ "name": "Anniversary Theme", "description": "Modification of Frosted Glass for personal use.", "author": "Rohzek", "version": "0.0.1", "source":"N/A"} *//**/
+
+@import url(FGR.css);
+
+:root {
+  --imgNonBlurred: url(https://i.imgur.com/Vp9xZ8L.jpg);
+  --imgBlurred: url(https://i.imgur.com/Vp9xZ8L.jpg);
+  --Brightness: rgba(0,0,0,0.2);
+  --SecondaryBrightness: rgba(0,0,0,0.4);
+  --ThirdBrightness: rgba(0,0,0,0.6);
+}
