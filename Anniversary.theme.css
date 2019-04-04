@@ -536,12 +536,12 @@
 
 /* Mention (@) and ? (help) buttons */
 .iconMargin-2YXk4F {
-  display: flex;
+  /*display: flex;*/
 }
 
 /* Seperator between search bar and @? buttons */
 .divider-2PMBlV {
-  display: flex;
+  /*display: flex;*/
 }
 
 .titleBar-AC4pGV {
@@ -571,22 +571,12 @@
   opacity: 0;
 }
 
-/* Friends tab background fix */
-.theme-dark .container-3gCOGc {
+/* Activity screen */
+.theme-dark .activityFeed-1C0EmJ {
   background: transparent;
 }
 
-/* Store page search bar fix */
-.theme-dark .applicationStore-1pNvnv {
+/* Activity Boxes: Game, empty ones */
+.theme-dark .outer-2IVh5n, .theme-dark .placeholderWrapper-3FaLtZ{
   background: transparent;
-}
-
-/* Store page background fix */
-.home-2gmu2h {
-  background-image: var(--imgBlurred);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  box-shadow: inset 0 0 0 10000px var(--SecondaryBrightness);
-  border: solid var(--imgBlurred) var(--SecondaryBrightness);
 }
